@@ -2,8 +2,10 @@
   "name": "universal_react_boilerplate",
   "version": "1.0.0",
   "description": "Universal javascript application boilerplate using React, React Router, Webpack, Babel, Ejs and Express.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "dev":"NODE_ENV=production node_modules/.bin/webpack -p && http-server src/static",
+    "prod":"NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,23 @@
   "bugs": {
     "url": "https://github.com/AdevaS/universal_react_boilerplate/issues"
   },
-  "homepage": "https://github.com/AdevaS/universal_react_boilerplate#readme"
+  "homepage": "https://github.com/AdevaS/universal_react_boilerplate#readme",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "ejs": "^2.5.7",
+    "express": "^4.14.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.10",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^1.13.3",
+    "webpack-cli": "^2.0.13"
+  }
 }
