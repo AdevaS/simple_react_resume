@@ -1,0 +1,19 @@
+{
+  "name": "universal_react_boilerplate",
+  "version": "1.0.0",
+  "description": "Universal javascript application boilerplate using React, React Router, Webpack, Babel, Ejs and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdevaS/universal_react_boilerplate.git"
+  },
+  "author": "Adevanir Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdevaS/universal_react_boilerplate/issues"
+  },
+  "homepage": "https://github.com/AdevaS/universal_react_boilerplate#readme"
+}
