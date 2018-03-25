@@ -4,8 +4,8 @@
   "description": "Universal javascript application boilerplate using React, React Router, Webpack, Babel, Ejs and Express.",
   "private": true,
   "scripts": {
-    "dev":"NODE_ENV=production node_modules/.bin/webpack -p && http-server src/static",
-    "prod":"NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js",
+    "dev": "NODE_ENV=production node_modules/.bin/webpack -p && http-server src/static",
+    "prod": "NODE_ENV=production node_modules/.bin/babel-node --presets react,es2015 src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +26,7 @@
     "babel-preset-react": "^6.11.1",
     "ejs": "^2.5.7",
     "express": "^4.14.1",
+    "jquery": "^3.3.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.6.1"

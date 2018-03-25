@@ -10,6 +10,7 @@ module.exports = {
   module: {
     loaders: [{
       test: path.join(__dirname, 'src'),
+      exclude: /node_modules/,
       loader: ['babel-loader'],
       query: {
         cacheDirectory: 'babel_cache',
